@@ -9,6 +9,7 @@
   "author": "Aakash Verma",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.2.0",
     "yargs": "^17.7.1"
   }
 }
