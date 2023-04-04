@@ -1,0 +1,2 @@
+# notes-app
+A notes app is a simple tool for creating, editing, and organizing notes. It allows users to categorize and tag notes, set reminders, and search for specific notes. With password protection and encryption, notes apps can be used for personal or business purposes.
