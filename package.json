@@ -1,0 +1,11 @@
+{
+  "name": "notes_app",
+  "version": "1.0.0",
+  "description": "A notes app is a simple tool for creating, editing, and organizing notes. It allows users to categorize and tag notes, set reminders, and search for specific notes. With password protection and encryption, notes apps can be used for personal or business purposes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aakash Verma",
+  "license": "MIT"
+}
