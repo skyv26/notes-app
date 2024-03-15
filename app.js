@@ -1,12 +1,14 @@
-const yargs = require('yargs');
+import { createRequire } from 'module';
+import chalk from 'chalk';
+const require = createRequire(import.meta.url);
 
-yargs.version('1.0.1');
+const yargs = require('yargs');
 
 yargs.command({
   command: 'add',
   describe: 'Add a new note',
   handler: () => {
-    console.log('Adding a new note !');
+    console.log(chalk.greenBright('\nAdding a new note !'));
   },
 });
 
