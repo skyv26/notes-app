@@ -9,3 +9,6 @@ yargs.command({
     console.log('Adding a new note !');
   },
 });
+
+
+console.log(yargs.argv);
