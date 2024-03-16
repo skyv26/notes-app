@@ -1,6 +1,13 @@
 import { createRequire } from 'module';
-import chalk from 'chalk';
+import path from 'path';
 const require = createRequire(import.meta.url);
+
+import chalk from 'chalk';
+import JsonClass from './jsonFunc/jsonSystem.js';
+
+
+const json = new JsonClass();
+const fileName = './data.json';
 
 const yargs = require('yargs');
 
@@ -59,7 +66,8 @@ yargs.command({
   command: 'list',
   describe: 'List all notes',
   handler: () => {
-    console.log('Listing all notes!');
+    const readObject = json.reader(path.join(__dirname, fileName));
+    console.log(readObject)
   },
 });
 
